@@ -1,0 +1,161 @@
+.footer-p{
+    color: rgb(153, 153, 153);
+}
+.footer-p:hover{
+    color: rgb(153, 153, 153);
+    text-decoration: underline;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F3F3F3;
+}
+h1{
+    font-size: 2.15em;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+p{
+    margin-bottom: 0;
+}
+a{
+    color: #0C79FE;
+}
+h4{
+    text-transform: uppercase;
+    color: rgb(165, 165, 165);
+    font-size: 1.125em;
+    font-weight: 300;
+}
+a:hover{
+    text-decoration: underline;
+    color: #0C79FE;
+}
+.account-btn{
+    height: 40px;
+    width: 150px;
+    border: none;
+    outline: 0 !important;
+    box-shadow: 0px 2px 2px rgb(94, 94, 94);
+    background: #bdc3c7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ececec, #DADADA); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #e4e5e6, #DADADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.account-btn:hover{
+    outline: 0 !important;
+    background: rgb(231, 231, 231);
+}
+.account-btn:active{
+    outline: 0 !important;
+    background: rgb(172, 172, 172);
+}
+#cancel{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+#last-button{
+    margin-top: 50px;
+}
+/*backoffice */
+#new-film{
+    width: 600px;
+    height: 500px;
+    background-color: #e6b1b1;
+    display: none;
+    position: absolute;
+    top:50px;
+    left:300px;
+    z-index: 1000;
+
+}
+.delete-btn{
+    color: black;
+    position: absolute;
+    right: 100px;
+    top:26px
+}
+.card-a{
+    color:black;
+}
+.card-a:hover{
+    color:black;
+}
+.update-btn{
+    color: black;
+    position: absolute;
+    right: 150px;
+    top:26px
+}
+#new-film h2{
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#new-film .row{
+    margin-left: 20px;
+    color: white;
+}
+input{
+    border:1px solid white !important;
+}
+#submitBtn{
+    background-color: rgb(233, 24, 24);
+    border: none !important;
+}
+#exit-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.film-image{
+    width:200px;
+}
+.card-header p{
+    color:darkblue
+}
+.netflix-header{
+    font-size: 24px;
+    color:rgb(88, 0, 0);
+    text-align: center;
+}
+.backpffice-btn{
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+}
+.backpffice-btn:hover{
+    border-bottom: 2px solid rgb(255, 113, 113);
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+.menu-div{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*homepage*/
+#main-div-with-films{
+    background-color: rgb(12, 12, 12);
+    padding: 60px 80px;
+    width: 100%;
+    margin: 0 !important;
+}
+.card-item-film{
+    font-size: 5px;
+    padding: 5px;
+    margin: 10px 10px;
+    background-color: rgba(15, 15, 15,0.6);
+}
+.card-item-film h5{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-item-film h6{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header h3 {
+    color: rgba(255,255,255,0.6)
+}

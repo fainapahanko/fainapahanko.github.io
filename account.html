@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Account section (Netflix)</title>
+
+</head>
+<body>
+    <div class="wrapper m-5">
+        <div class="main">
+            <div class="container">
+                <div class="header mb-3 ml-4">
+                    <h1>Account</h1>
+                </div>
+                <hr>
+                <div class="membership-and-billing row">
+                    <div id="membership-and-billing" class="col-md-3 col-12" style="height: 130px;">
+                        <div class="m-0">
+                            <h4>membership & billing</h4>
+                            <div>
+                                <button class="account-btn" href="#">
+                                    <span id="cancel" style="color:black">Cancel Membership</span>
+                                </button>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-12">
+                        <div class="personal-info">
+                            <div class="row">
+                                <div class="non-action-personal-info col-sm-6 col-12" >
+                                    <p class="m-2 px-0 d-none d-sm-block">stas.poganko@gmail.com</p>
+                                    <p class="m-2 px-0 d-sm-block d-none">Password: ********</p>
+                                    <p class="m-2 px-0 d-sm-block d-none">Phone: 8 029 366-00-19</p>
+                                </div>
+                                <div class="action-personal-info col-sm-6 col-12">
+                                    <div class="text-sm-right m-2">
+                                        <a href="">Change account email</a>
+                                    </div>
+                                    <div class="text-sm-right m-2">
+                                        <a href="">Change password</a>
+                                    </div>
+                                    <div class="text-sm-right m-2">
+                                        <a href="">Change phone number</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="non-action-personal-info col-sm-6 col-12" >
+                                    <p class="m-2 px-0 d-none d-sm-block">•••• •••• •••• 0598</p>
+                                </div>
+                                <div class="action-personal-info col-sm-6 col-12">
+                                    <div class="text-sm-right m-2">
+                                        <a href="">Update payment info</a>
+                                    </div>
+                                    <div class="text-sm-right m-2">
+                                        <a href="">Billing details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="non-action-personal-info col-sm-6 col-12" >
+                                </div>
+                                <div class="action-personal-info col-sm-6 col-12">
+                                    <div class="text-sm-right m-2">
+                                        <a href="">Redeem gift card or promo code</a>
+                                    </div>
+                                    <div class="text-sm-right m-2">
+                                        <a href="">Where to buy gift cards</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="plan-details row">
+                    <div id="plan-details" class="col-md-3 col-12" style="height: 50px;">
+                        <div style="width: 300px;">
+                            <h4 class="m-0">plan details</h4> 
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-12">
+                        <div class="personal-info">
+                            <div class="row">
+                                <div class="non-action-personal-info col-6" >
+                                    <span class="m-0">
+                                        <b class="m-2">Premium</b>                                            
+                                        <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBpZD0iTGF5ZXJfMSIgaGVpZ2h0PSI1MTJweCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHdpZHRoPSI1MTJweCIgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBkPSJtMTIyLjEgMTguMTZoLTExNi4yYTEuNzUgMS43NSAwIDAgMCAtMS43NSAxLjc1djc4LjU4M2ExLjc1IDEuNzUgMCAwIDAgMS43NSAxLjc1aDMuNTQxbC0uODEzIDMuNDQ3YTUgNSAwIDAgMCA5LjQ4MiAzLjA3NmwyLjcyNS02LjUyM2g4Ni4zMzFsMi43MjUgNi41MjNhNSA1IDAgMCAwIDkuNDgyLTMuMDc2bC0uODEzLTMuNDQ3aDMuNTRhMS43NSAxLjc1IDAgMCAwIDEuNzUtMS43NXYtNzguNTgzYTEuNzUgMS43NSAwIDAgMCAtMS43NS0xLjc1em0tMTE0LjQ1NSAzLjVoMTEyLjcxdjIuNjI3aC0xMTIuNzF6bTExMi43MSA2LjEyN3Y1OS4xMmgtMTEyLjcxdi01OS4xMnptLTEwNS40NzUgNzcuNjNhMS41IDEuNSAwIDAgMSAtMi44NDYtLjkyNGwxLTQuMjVoNHptMTAxLjA4NS0uOTI0YTEuNSAxLjUgMCAwIDEgLTIuODQ2LjkyNGwtMi4xNjEtNS4xNzRoNHptNC4zODktNy43NWgtMTEyLjcwOXYtNi4zMzZoMTEyLjcxeiIgZmlsbD0iIzAwMDAwMCIvPjxwYXRoIGQ9Im01Ny4yOTIgOTUuMzI1aDEzLjQxNmExLjc1IDEuNzUgMCAwIDAgMC0zLjVoLTEzLjQxNmExLjc1IDEuNzUgMCAwIDAgMCAzLjV6IiBmaWxsPSIjMDAwMDAwIi8+PHBhdGggZD0ibTE1LjMzMyA5NS4zMjVoMi4xMTlhMS43NSAxLjc1IDAgMSAwIDAtMy41aC0yLjExOWExLjc1IDEuNzUgMCAxIDAgMCAzLjV6IiBmaWxsPSIjMDAwMDAwIi8+PHBhdGggZD0ibTQ1LjE1NSA3NS40M2gzNy42OWE5LjgxOSA5LjgxOSAwIDAgMCA5LjgwOC05LjgwN3YtMTYuNTUyYTkuODE5IDkuODE5IDAgMCAwIC05LjgwOC05LjgwN2gtMzcuNjlhOS44MTkgOS44MTkgMCAwIDAgLTkuODA4IDkuODA3djE2LjU1MmE5LjgxOSA5LjgxOSAwIDAgMCA5LjgwOCA5LjgwN3ptLTYuMzA3LTI2LjM1OWE2LjMxNSA2LjMxNSAwIDAgMSA2LjMwOC02LjMwN2gzNy42ODlhNi4zMTUgNi4zMTUgMCAwIDEgNi4zMDggNi4zMDd2MTYuNTUyYTYuMzE1IDYuMzE1IDAgMCAxIC02LjMwOCA2LjMwN2gtMzcuNjlhNi4zMTUgNi4zMTUgMCAwIDEgLTYuMzA4LTYuMzA3eiIgZmlsbD0iIzAwMDAwMCIvPjxwYXRoIGQ9Im01MC40NzMgNTguODYyaDYuMTI0djUuMTM4aDMuNzI2di0xMy4zMDZoLTMuNzI2djQuODMzaC02LjEyNHYtNC44MzNoLTMuNzI3djEzLjMwNmgzLjcyN3oiIGZpbGw9IiMwMDAwMDAiLz48cGF0aCBkPSJtODEuMjU0IDU3LjMzNmMwLTQuMzgtMy42MTgtNi42NDItOC43NjEtNi42NDJoLTUuNDd2MTMuMzA2aDUuNDdjNS4xNDMgMCA4Ljc2MS0yLjI4NCA4Ljc2MS02LjY2NHptLTEwLjUtMy4yNjRoMi4zMWMyLjU1IDAgNC4zODEuODY3IDQuMzgxIDMuMjY0cy0xLjgzMSAzLjI4Ni00LjM4MSAzLjI4NmgtMi4zMXoiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4K" style="width: 30px; height: 30px;"/>
+                                    </span>
+                                </div>
+                                <div class="action-personal-info col-6">
+                                    <div class="text-sm-right m-2">
+                                        <a href="">Change plan</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings row">
+                    <div id="settings" class="col-md-3 col-12" style="height: 50px;">
+                        <div style="width: 60px;" class="m-0">
+                            <h4>Settings</h4> 
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-12">
+                        <div class="personal-info">
+                            <div class="row">
+                                <div class="non-action-personal-info col-sm-6 col-12" >
+                                    <div class="m-2">
+                                        <a href="">Parental controls</a>
+                                    </div>
+                                    <div class="m-2">
+                                        <a href="">Test participation</a>
+                                    </div>
+                                    <div class="m-2">
+                                        <a href="">Manage download devices</a>
+                                    </div>
+                                    <div class="m-2">
+                                        <a href="">Activate a device</a>
+                                    </div>
+                                    <div class="m-2">
+                                        <a href="">Recent device streaming activity</a>
+                                    </div>
+                                    <div class="m-2">
+                                        <a href="">Sign out of all devices</a>
+                                    </div>
+                                </div>
+                                <div class="action-personal-info col-sm-6 col-12">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="myprofile row">
+                    <div id="myprofile" class="col-md-3 col-12" style="height: 50px;">
+                        <div class="m-0">
+                            <h4>my profile</h4> 
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-12">
+                        <div class="personal-info">
+                            <div class="row">
+                                <div class="non-action-personal-info col-sm-6 col-12" >
+                                    <img class="m-2" src="https://occ-0-1433-1432.1.nflxso.net/art/9f389/c84e526b1a0e4891b6713f50c493f7d977a9f389.png" alt=""> <b class="px-2">Faina</b>
+                                </div>
+                                <div class="action-personal-info col-sm-6 col-12">
+                                    <div class="text-sm-right m-2">
+                                        <a href="">Manage profiles</a>
+                                    </div>
+                                    <div class="text-sm-right m-2">
+                                        <a href="">Add profile email</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 col-12" >
+                                        <div class="m-2">
+                                            <a href="">Language</a>
+                                        </div>
+                                        <div class="m-2">
+                                            <a href="">Playback settings</a>
+                                        </div>
+                                        <div class="m-2">
+                                            <a href="">Subtitle appearance</a>
+                                        </div>
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <div class="m-2">
+                                        <a href="">Viewing activity</a>
+                                    </div>
+                                    <div class="m-2">
+                                        <a href="">Ratings</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="my-5">
+    <footer>
+        <div class="container">
+            <div class="row px-3" style="margin-bottom: 30px;">
+                <a id="questions" class="footer-p" href="">Questions? Contact us.</a>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-6">
+                    <div>
+                        <a href="" class="footer-p">Audio and Subtitles</a>
+                    </div>
+                    <div>
+                        <a href="" class="footer-p">Media Center</a>
+                    </div>
+                    <div>
+                        <a href="" class="footer-p">Privacy Statement</a>
+                    </div>
+                    <br>
+                </div>    
+                <div class="col-sm-3 col-6">
+                    <div>
+                        <a href="" class="footer-p">Help Center</a>
+                    </div>
+                    <div>
+                        <a href="" class="footer-p">Jobs</p>
+                    </div>
+                </div>   
+                <div class="col-sm-3 col-6">
+                    <div>
+                        <a href="" class="footer-p">Gift Cards</a>
+                    </div>
+                    <div>
+                        <a href="" class="footer-p">Cookie Preferences</a>
+                    </div>
+                </div>   
+                <div class="col-sm-3 col-6">
+                    <div>
+                        <a href="" class="footer-p">Investor Relations</a>
+                    </div>
+                    <div>
+                        <a href="" class="footer-p">Media Center</a>
+                    </div>
+                    <div>
+                        <a href="" class="footer-p">Terms of Use</a>
+                    </div>
+                </div>                  
+            </div>
+        </div>
+        <button style="color:rgb(165, 165, 165) outline: none; border-radius: 4px; background: #F3F3F3; box-shadow: none; border: 0.5px solid rgb(102, 102, 102); margin-bottom: 30px" id="last-button" class="mx-5"><span id="btnSpan">Service Code</span></button>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
