@@ -13,6 +13,9 @@
   </head>
   <body>
       <style>
+        #main-div-with-films{
+            min-height: 100vh;
+        }
         a{
             color:white;
         }
@@ -72,7 +75,9 @@
     </nav>
     <!--navbar ends-->
     <div class="row" id="main-div-with-films">
-
+        <div class="spinner-border text-info" id="spinner" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
     </div>
     <!--footer starts-->
     <div class="footer">
@@ -160,8 +165,10 @@
         </div>
     </div>
     <script>
+        let spinner = document.querySelector("#spinner")
         window.onload = async() => {
             await loadFilms()
+            spinner.style.display = "none"
         }
     </script>
     <!--end of footer-->
